@@ -26,6 +26,12 @@ function draw() {
   let endOne = map(sec, 0, 60, 0, 360) + 270;
   arc(arcWidth, arcHeight, arc1, arc1, 270, endOne);
 
+  print(endOne);
+
+  if (endOne > 624 || endOne < 276) {
+    arc(arcWidth, arcHeight, arc1, arc1, 270, 629);
+  }
+
   strokeWeight(windowHeight / 60);
   stroke(255, 0, 0);
   noFill();
