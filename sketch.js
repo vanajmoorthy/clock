@@ -36,5 +36,5 @@ function draw() {
   stroke(0, 255, 90);
   noFill();
   let endThree = map(hr % 12, 0, 12, 0, 360) + 270;
-  arc(arcWidth, arcHeight, arc3, arc3, 270, 360);
+  arc(arcWidth, arcHeight, arc3, arc3, 270, endThree);
 }
