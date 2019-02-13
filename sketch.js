@@ -25,7 +25,6 @@ function draw() {
   noFill();
   let endOne = map(sec, 0, 60, 0, 360) + 270;
   arc(arcWidth, arcHeight, arc1, arc1, 270, endOne);
-
   print(endOne);
 
   if (endOne > 624 || endOne < 276) {
