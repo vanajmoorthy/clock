@@ -25,7 +25,7 @@ function draw() {
   noFill();
   let endOne = map(sec, 0, 60, 0, 360) + 270;
   arc(arcWidth, arcHeight, arc1, arc1, 270, endOne);
-  print(endOne);
+  // print(endOne);
 
   if (endOne > 624 || endOne < 276) {
     arc(arcWidth, arcHeight, arc1, arc1, 270, 629);
@@ -42,4 +42,5 @@ function draw() {
   noFill();
   let endThree = map(hr % 12, 0, 12, 0, 360) + 270;
   arc(arcWidth, arcHeight, arc3, arc3, 270, endThree);
+  // text("ur mom gay", 100, 100);
 }
