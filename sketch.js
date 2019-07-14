@@ -42,5 +42,4 @@ function draw() {
   noFill();
   let endThree = map(hr % 12, 0, 12, 0, 360) + 270;
   arc(arcWidth, arcHeight, arc3, arc3, 270, endThree);
-  // text("ur mom gay", 100, 100);
 }
